@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(bg1.png);
+  background-repeat: repeat;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 28px;
+  color: #b25a00;
+  background-color: rgba(51, 51, 51, 0.8);
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 10px;
+}
+
+#instructions,
+#game {
+  background-color: rgba(51, 51, 51, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card-container {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #b25a00;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#card-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#guess-input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  background-color: #b25a00;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 10px;
+}
